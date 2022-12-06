@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import { HomeBanner } from '../components/HomeBanner';
-import { stripe } from '../services/stripe';
+import { AboutBanner } from '../components/AboutBanner';
 
 import styles from '../styles/home.module.scss';
 
@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
 
       <HomeBanner />
+      <AboutBanner />
     </>
   )
 };
