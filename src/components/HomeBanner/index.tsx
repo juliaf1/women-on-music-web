@@ -1,19 +1,19 @@
-import { SubscribeButton } from '../SubscribeButton';
-import { HomeProps } from '../../pages';
+import { StartPlaylistButton } from '../StartPlaylistButton';
 
 import styles from './styles.module.scss';
 
-export function HomeBanner({ product }: HomeProps) {
+export function HomeBanner() {
   return(
     <main className={styles.contentContainer}>
       <section className={styles.hero}>
-        <span>👏 Hey, welcome</span>
-        <h1>News about the <span>React</span> world</h1>
+        <span>Em parceria com Um Café Lá Em Casa</span>
+
+        <h1>Música brasileira, <span>no feminino</span></h1>
         <p>
-          Get access to all publications<br/>
-          <span>for ${product.amount}/month</span>
+          Descubra a música brasileira com histórias contadas por mulheres.
         </p>
-        <SubscribeButton priceId={product.priceId} />
+
+        <StartPlaylistButton />
       </section>
 
       <img src="/images/avatar.svg" alt="" />
