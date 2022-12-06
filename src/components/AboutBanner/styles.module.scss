@@ -41,6 +41,30 @@
   }
 }
 
+.githubLink {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-300);
+
+  p {
+    line-height: 1rem;
+    margin-top: 0;
+    margin-left: 0.5rem;
+    color: var(--gray-700)
+  }
+
+  .icon {
+    cursor: pointer;
+  }
+
+  .icon:hover {
+    filter: brightness(0.8);
+  }
+}
+
 @media (max-width: 720px) {
   .contentContainer {
     flex-wrap: wrap;

@@ -1,10 +1,12 @@
+import { FaGithub } from 'react-icons/fa';
+
 import { StartPlaylistButton } from '../StartPlaylistButton';
 
 import styles from './styles.module.scss';
 
 export function AboutBanner() {
   return(
-    <main className={styles.contentContainer} id="about">
+    <main className={styles.contentContainer}>
       <section className={styles.hero}>
         <span>Sobre o projeto</span>
 
@@ -16,7 +18,13 @@ export function AboutBanner() {
           É um convite para descobrir não só o som, mas também as possíveis narrativas que compõe o universo vasto, polirrítmico, descompassado e múltiplo que é o da música brasileira. Por meio de vozes femininas, claro.
         </p>
 
-        <StartPlaylistButton />
+        <div className={styles.githubLink}>
+          <a href="https://github.com/juliaf1" target="blank">
+            <FaGithub color="#db3a34" size={25} className={styles.icon} />
+          </a>
+
+          <p>Acesse o projeto no Github</p>
+        </div>
       </section>
     </main>
   )

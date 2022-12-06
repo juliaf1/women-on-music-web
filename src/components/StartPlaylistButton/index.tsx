@@ -7,7 +7,7 @@ export function StartPlaylistButton() {
     <button
       className={styles.startPlaylistButton}
     >
-      <FcMusic color="#eba417" className={styles.icon} />
+      <FcMusic className={styles.icon} />
       Gerar Playlist
     </button>
   )
