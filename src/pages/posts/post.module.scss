@@ -39,7 +39,7 @@
     }
 
     a {
-      color: var(--yellow-500);
+      color: var(--red-500);
 
       &:hover {
         filter: brightness(0.8)
@@ -65,7 +65,7 @@
   cursor: pointer;
 
   a {
-    color: var(--yellow-500);
+    color: var(--red-500);
     margin-left: 0.5rem;
 
     &:hover {
