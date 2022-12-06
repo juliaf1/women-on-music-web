@@ -17,7 +17,7 @@ export default function Home({ product }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Início | ig.news</title>
+        <title>Música Brasileira</title>
       </Head>
 
       <HomeBanner product={product} />
