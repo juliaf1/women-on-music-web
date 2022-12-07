@@ -26,23 +26,15 @@
     line-height: 3rem;
     font-weight: 900;
     margin-top: 2rem;
-    mix-blend-mode: luminosity;
-
-    span {
-      color: var(--red-500);
-    }
+    mix-blend-mode: color-dodge;
+    color: var(--red-500);
   }
 
-  p {
+  p, span {
     font-size: 1rem;
     line-height: 1.5rem;
     margin-top: 1.5rem;
     mix-blend-mode: luminosity;
-
-    span {
-      color: var(--red-500);
-      font-weight: bold;
-    }
   }
 
   button {
