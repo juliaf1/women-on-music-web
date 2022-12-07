@@ -18,7 +18,7 @@ export function Header() {
           </ActiveLink>
         </nav>
 
-        <StartPlaylistButton />
+        <StartPlaylistButton title="Gerar Playlist" />
       </div>
     </header>
   )

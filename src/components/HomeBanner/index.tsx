@@ -16,7 +16,7 @@ export function HomeBanner() {
           Descubra a música brasileira com histórias contadas por mulheres.
         </p>
 
-        <StartPlaylistButton />
+        <StartPlaylistButton title="Comece a explorar" />
       </section>
 
       <div className={styles.lottie}>
