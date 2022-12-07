@@ -1,31 +1,39 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 
-import styles from './post.module.scss';
+import styles from './artist.module.scss';
 
-interface PostProps {
-  post: {
+interface ArtistProps {
+  artist: {
     id: string;
+    name: string;
+    briefing: string;
+    city: string;
+    video_url: string;
     title: string;
     content: string;
-    created_at: string;
+    socials: {
+      spotify: string;
+      website: string;
+      instagram: string;
+    }
   }
 };
 
-export default function Post({ post }: PostProps) {
+export default function Artist({ artist }: ArtistProps) {
   return(
     <>
       <Head>
-        <title>{`${post.title} | ig.news` }</title>
+        <title>{`${artist.title} | Música Brasileira` }</title>
       </Head>
 
       <main className={styles.container}>
-        <article className={styles.post}>
-          <h1>{post.title}</h1>
-          <time>{post.created_at}</time>
+        <article className={styles.artist}>
+          <h1>{artist.title}</h1>
+          <time>{artist.city}</time>
           <div
             className={styles.content}
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: artist.content }}
           />
         </article>
       </main>
@@ -34,11 +42,9 @@ export default function Post({ post }: PostProps) {
 };
 
 export const getServerSideProps: GetServerSideProps = async ({ req, params }) => {
-  // Request API/DB for post with that slug/id
-
   return {
     props: {
-      post: {
+      artist: {
         id: 0,
         title: 'Creating a Next application with TS',
         content: '<p>In this guide, you will learn how to create a <a href="/">Next</a> application with TypeScript from scratch... Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.</p>',
