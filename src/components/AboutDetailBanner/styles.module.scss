@@ -1,7 +1,7 @@
 .contentContainer {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   position: relative;
   top: 5rem;
 
@@ -26,6 +26,15 @@
     line-height: 3rem;
     font-weight: 900;
     margin-top: 2rem;
+
+    span {
+      font-size: 3rem;
+      color: var(--red-500);
+      mix-blend-mode: normal;
+    }
+  }
+
+  .colorTitle {
     mix-blend-mode: color-dodge;
     color: var(--red-500);
   }
