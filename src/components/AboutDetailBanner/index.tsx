@@ -1,4 +1,7 @@
 import { FiLink2 } from 'react-icons/fi';
+import Lottie from 'react-lottie';
+
+import animationYellowData from '../../../public/lotties/yellow-blob.json';
 
 import styles from './styles.module.scss';
 
@@ -32,11 +35,23 @@ export function AboutDetailBanner() {
     </main>
 
     <main className={styles.contentContainer}>
-  
+      <div className={styles.lottie}>
+        <Lottie
+          options={{
+            loop: true,
+            autoplay: true,
+            animationData: animationYellowData,
+            rendererSettings: {
+              preserveAspectRatio: "xMidYMid slice"
+            }
+          }}
+        />
+      </div>
+    
       <section className={styles.hero}>
         <span>O protagonismo feminino na música pop</span>
 
-        <h2>Quem <span>comanda a indústria</span> e os charts?</h2>
+        <h2>Quem comanda a indústria e os charts?</h2>
         <p>
           Um relatório da USC Annenberg analisou a indústria musical popular entre 2012 e 2021 e trouxe dados reveladores sobre discriminação de gênero e raça.
           <br/><br/>

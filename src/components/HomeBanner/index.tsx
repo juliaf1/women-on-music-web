@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie';
-import animationData from '../../../public/lotties/blob.json';
+import animationData from '../../../public/lotties/red-blob.json';
 
 import { StartPlaylistButton } from '../StartPlaylistButton';
 
