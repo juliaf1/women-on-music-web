@@ -12,7 +12,7 @@ export function AboutBanner() {
         <p>
           Música Brasileira é um projeto desenvolvido como TCC do curso de Estudos de Mídia na Universidade Federal Fluminense em 2022.
           <br/>
-          Com o objetivo de celebrar as mulheres que fazem música no Brasil, o projeto coleciona um acervo de artistas que transitam por diferentes gêneros e instrumentos.
+          Com o objetivo de celebrar as mulheres que fazem música no Brasil, o projeto coleciona um acervo de artistas que transitam por diferentes gêneros musicais e instrumentos.
           <br/>
           A proposta do website é apresentar essas mulheres através das histórias que elas próprias contaram no programa Um Café Lá Em Casa - sendo um convite para descobrir não só o som, mas também as narrativas que compõe esse universo vasto, polirrítmico, descompassado e múltiplo que é a música brasileira.
         </p>

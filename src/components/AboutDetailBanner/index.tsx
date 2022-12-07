@@ -54,14 +54,14 @@ export function AboutDetailBanner() {
 
         <h2>Quem comanda a indústria e os charts?</h2>
         <p>
-          Um relatório da USC Annenberg analisou a indústria musical popular entre 2012 e 2021 e trouxe dados reveladores sobre discriminação de gênero e raça.
+          Um relatório da USC Annenberg analisou a indústria musical pop entre 2012 e 2021 e trouxe dados reveladores sobre discriminação de gênero e raça.
           <br/><br/>
-          Após examinarem mil músicas populares, as pesquisadoras perceberam que entre os artistas:
-          <br/> - Apenas 22% são mulheres.
-          <br/> - Apenas 13% são mulheres compositoras.
-          <br/> - Apenas 3% são mulheres produtoras.
+          Após examinarem mil músicas, as pesquisadoras perceberam que entre os artistas:
+          <br/> - Apenas 22% eram mulheres.
+          <br/> - Apenas 13% eram mulheres compositoras.
+          <br/> - Apenas 3% eram mulheres produtoras.
           <br/> - Apenas 0,6% dos créditos foram para mulheres não brancas.
-          <br/> - Apenas 13.6% dos nomeados ao Grammy foram mulheres.
+          <br/> - Apenas 13.6% dos nomeados ao Grammy eram mulheres.
         </p>
 
         <div className={styles.link}>
@@ -82,12 +82,12 @@ export function AboutDetailBanner() {
 
         <h2 className={styles.colorTitle}>Quem conta a história da música brasileira?</h2>
         <p>
-          Que mulheres fazem música e são motor artístico potente no Brasil e no mundo não é novidade.
-          No entanto, as pesquisas e relatos mostram que a música, assim como outras indústrias, ainda segue uma lógica patriarcal e não inclusiva.
+          Que mulheres fazem música no Brasil e no mundo não é novidade.
+          No entanto, as pesquisas e relatos mostram que a indústria musical ainda segue uma lógica patriarcal e não inclusiva.
           <br/><br/>
-          Homens tem predominância nos espaços e instituições culturais que detém capital político e social - e a história da música segue sendo contada a partir de suas conquistas.
+          Homens brancos são maioria nos espaços e instituições culturais que detém capital político e social - e a história da música segue sendo contada a partir de suas conquistas.
           <br/><br/>
-          É hora de começarmos a ouvir a música brasileira a partir de uma perspectiva realmente inclusiva - celebrando artistas mulheres e de cor, compartilhando seus trabalhos e ouvindo suas histórias.
+          É hora de registrarmos a história da música a partir de uma perspectiva inclusiva - celebrando artistas mulheres, compartilhando seus trabalhos e reconhecendo suas jornadas.
         </p>
 
         <StartPlaylistButton title="Comece a explorar" />
