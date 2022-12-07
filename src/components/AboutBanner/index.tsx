@@ -13,13 +13,14 @@ export function AboutBanner() {
         <h2>E se a <span>história da música brasileira</span> fosse contada por mulheres? </h2>
         <p>
           Música Brasileira é um projeto desenvolvido como TCC do curso de Estudos de Mídia na Universidade Federal Fluminense em 2022.
-          
-          A proposta do website é apresentar diversas artistas brasileiras e sua musicalidade - através das histórias que elas próprias contaram no programa Um Café Lá Em Casa.
-          É um convite para descobrir não só o som, mas também as possíveis narrativas que compõe o universo vasto, polirrítmico, descompassado e múltiplo que é o da música brasileira. Por meio de vozes femininas, claro.
+          <br/>
+          Com o objetivo de celebrar as mulheres que fazem música no Brasil, o projeto coleciona um acervo de artistas que transitam por diferentes gêneros e instrumentos.
+          <br/>
+          A proposta do website é apresentar essas mulheres através das histórias que elas próprias contaram no programa Um Café Lá Em Casa - sendo um convite para descobrir não só o som, mas também as narrativas que compõe esse universo vasto, polirrítmico, descompassado e múltiplo que é a música brasileira.
         </p>
 
         <div className={styles.githubLink}>
-          <a href="https://github.com/juliaf1" target="blank">
+          <a href="https://github.com/juliaf1/women-on-music-web" target="blank">
             <FaGithub color="#db3a34" size={25} className={styles.icon} />
           </a>
 
