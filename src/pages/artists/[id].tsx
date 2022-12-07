@@ -1,7 +1,7 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 
-import { Artist as ArtistProps } from '../../utils/artists';
+import { Artist as ArtistProps, artists } from '../../utils/artists';
 
 import styles from './artist.module.scss';
 
@@ -9,32 +9,22 @@ export default function Artist(artist: ArtistProps) {
   return(
     <>
       <Head>
-        <title>{`${artist.title} | Música Brasileira` }</title>
+        <title>{`${artist.name} | Música Brasileira` }</title>
       </Head>
 
-      <main className={styles.container}>
-        <article className={styles.artist}>
-          <h1>{artist.title}</h1>
-          <time>{artist.city}</time>
-          <div
-            className={styles.content}
-            dangerouslySetInnerHTML={{ __html: artist.content }}
-          />
-        </article>
-      </main>
+      <h1>{artist.name}</h1>
+      <img src={artist.image_url} alt="" />
     </>
   )
 };
 
 export const getServerSideProps: GetServerSideProps = async ({ req, params }) => {
+  const { id } = params;
+  let artist = artists.find(artist => artist.id == id );
+
   return {
     props: {
-      artist: {
-        id: 0,
-        title: 'Creating a Next application with TS',
-        content: '<p>In this guide, you will learn how to create a <a href="/">Next</a> application with TypeScript from scratch... Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.</p>',
-        created_at: 'Sunday, October 02, 2022',
-      }
+      artist
     }
   }
 };
