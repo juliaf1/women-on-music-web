@@ -1,27 +1,11 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 
+import { Artist as ArtistProps } from '../../utils/artists';
+
 import styles from './artist.module.scss';
 
-interface ArtistProps {
-  artist: {
-    id: string;
-    name: string;
-    briefing: string;
-    city: string;
-    video_url: string;
-    image_url: string;
-    title: string;
-    content: string;
-    socials: {
-      spotify: string;
-      website: string;
-      instagram: string;
-    }
-  }
-};
-
-export default function Artist({ artist }: ArtistProps) {
+export default function Artist(artist: ArtistProps) {
   return(
     <>
       <Head>
