@@ -2,7 +2,7 @@ import { FaGithub } from 'react-icons/fa';
 
 import styles from './styles.module.scss';
 
-export function AboutBanner() {
+export function AboutDetailBanner() {
   return(
     <main className={styles.contentContainer}>
       <section className={styles.hero}>
