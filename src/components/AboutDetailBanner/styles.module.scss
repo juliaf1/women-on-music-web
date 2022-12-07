@@ -4,10 +4,23 @@
   padding: 4rem 2rem;
   position: relative;
   top: 5rem;
+
+  img {
+    position: absolute;
+    max-width: 600px;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -100;
+    opacity: 0.8;
+  }
 }
 
 .hero {
   max-width: 600px;
+  mix-blend-mode: luminosity;
 
   h2 {
     font-size: 3rem;
@@ -36,13 +49,17 @@
   }
 }
 
-.githubLink {
+.link {
   display: flex;
   align-items: center;
   margin-top: 2rem;
 
   padding-top: 1rem;
   border-top: 1px solid var(--gray-300);
+
+  a {
+    line-height: 1rem;
+  }
 
   p {
     line-height: 1rem;
@@ -57,31 +74,5 @@
 
   .icon:hover {
     filter: brightness(0.8);
-  }
-}
-
-@media (max-width: 720px) {
-  .contentContainer {
-    flex-wrap: wrap;
-    justify-content: center;
-
-    .hero {
-      position: relative;
-      top: 2.5rem;
-      z-index: 1;
-    }
-
-    img {
-      position: relative;
-      max-width: 350px;
-      z-index: 0;
-      filter: brightness(0.8);
-    }
-  }
-}
-
-@media (max-width: 480px) {
-  .contentContainer > img {
-    max-width: 250px;
   }
 }

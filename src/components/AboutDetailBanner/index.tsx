@@ -1,28 +1,31 @@
-import { FaGithub } from 'react-icons/fa';
+import { FiLink2 } from 'react-icons/fi';
 
 import styles from './styles.module.scss';
 
 export function AboutDetailBanner() {
   return(
     <main className={styles.contentContainer}>
+      <img src="images/blur.png" />
+  
       <section className={styles.hero}>
-        <span>Sobre o projeto</span>
+        <span>O protagonismo feminino no universo musical</span>
 
-        <h2>E se a <span>história da música brasileira</span> fosse contada por mulheres? </h2>
+        <h2>Aonde estão as mulheres da música?</h2>
         <p>
-          Música Brasileira é um projeto desenvolvido como TCC do curso de Estudos de Mídia na Universidade Federal Fluminense em 2022.
-          <br/>
-          Com o objetivo de celebrar as mulheres que fazem música no Brasil, o projeto coleciona um acervo de artistas que transitam por diferentes gêneros e instrumentos.
-          <br/>
-          A proposta do website é apresentar essas mulheres através das histórias que elas próprias contaram no programa Um Café Lá Em Casa - sendo um convite para descobrir não só o som, mas também as narrativas que compõe esse universo vasto, polirrítmico, descompassado e múltiplo que é a música brasileira.
+          Ainda que mulheres sempre tenham sido motor artístico potente, a sua representatividade na indústria musical é limitada e vive solavancos.
+          <br/><br/>
+          Um relatório da UBC de 2021 escancara o longo caminho que a indústria musical ainda precisa percorrer para se tornar um espaço representativo da potência musical feminina:
+          <br/> - Apenas 4 dos 100 autores de maior rendimento são mulheres.
+          <br/> - Mulheres representam 9% do total de rendimentos.
+          <br/> - Mulheres compõe 15% do quadro de associados.
         </p>
 
-        <div className={styles.githubLink}>
-          <a href="https://github.com/juliaf1/women-on-music-web" target="blank">
-            <FaGithub color="#db3a34" size={25} className={styles.icon} />
+        <div className={styles.link}>
+          <a href="https://www.ubc.org.br/anexos/publicacoes/Por-Elas-Que-Fazem-a-Musica-2021.pdf" target="blank">
+            <FiLink2 color="#db3a34" size={25} className={styles.icon} />
           </a>
 
-          <p>Acesse o projeto no Github</p>
+          <p>Acesse o relatório da UBC</p>
         </div>
       </section>
     </main>
