@@ -19,18 +19,18 @@ export function HomeBanner() {
         <StartPlaylistButton />
       </section>
 
-      <Lottie
-        options={{
-          loop: true,
-          autoplay: true,
-          animationData: animationData,
-          rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-          }
-        }}
-        height={500}
-        width={500}
-      />
+      <div className={styles.lottie}>
+        <Lottie
+          options={{
+            loop: true,
+            autoplay: true,
+            animationData: animationData,
+            rendererSettings: {
+              preserveAspectRatio: "xMidYMid slice"
+            }
+          }}
+        />
+      </div>
     </main>
   )
 };

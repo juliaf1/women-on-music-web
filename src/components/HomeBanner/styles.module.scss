@@ -11,8 +11,14 @@
   justify-content: space-between;
 }
 
+.lottie {
+  width: 80%;
+  z-index: 0;
+}
+
 .hero {
   max-width: 600px;
+  z-index: 1;
 
   h1 {
     font-size: 4.5rem;
@@ -43,26 +49,23 @@
 
 @media (max-width: 720px) {
   .contentContainer {
-    flex-wrap: wrap;
+    display: relative;
     justify-content: center;
+  }
 
-    .hero {
-      position: relative;
-      top: 2.5rem;
-      z-index: 1;
-    }
+  .lottie {
+    position: absolute;
+    filter: opacity(0.6);
+  }
 
-    img {
-      position: relative;
-      max-width: 350px;
-      z-index: 0;
-      filter: brightness(0.8);
-    }
+  .hero > h1 {
+    font-size: 4rem;
+    line-height: 4rem;
   }
 }
 
 @media (max-width: 480px) {
-  .contentContainer > img {
+  .lottie {
     max-width: 250px;
   }
 }

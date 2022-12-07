@@ -72,3 +72,19 @@
     }
   }
 }
+
+@media (max-width: 330px) {
+  .headerContent {
+    justify-content: space-between;
+  }
+
+  .headerContent {
+    img {
+      display: block;
+    }
+
+    button {
+      display: none;
+    }
+  }
+}
