@@ -40,7 +40,7 @@ export function AboutDetailBanner() {
         <p>
           Um relatório da USC Annenberg analisou a indústria musical popular entre 2012 e 2021 e trouxe dados reveladores sobre discriminação de gênero e raça.
           <br/><br/>
-          Após examinar mil músicas populares, as pesquisadoras perceberam que entre os artistas:
+          Após examinarem mil músicas populares, as pesquisadoras perceberam que entre os artistas:
           <br/> - Apenas 22% são mulheres.
           <br/> - Apenas 13% são mulheres compositoras.
           <br/> - Apenas 3% são mulheres produtoras.
