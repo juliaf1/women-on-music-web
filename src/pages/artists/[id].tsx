@@ -10,6 +10,7 @@ interface ArtistProps {
     briefing: string;
     city: string;
     video_url: string;
+    image_url: string;
     title: string;
     content: string;
     socials: {
