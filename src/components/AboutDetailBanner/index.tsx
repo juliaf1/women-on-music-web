@@ -4,6 +4,7 @@ import Lottie from 'react-lottie';
 import animationYellowData from '../../../public/lotties/yellow-blob.json';
 
 import styles from './styles.module.scss';
+import { StartPlaylistButton } from '../StartPlaylistButton';
 
 export function AboutDetailBanner() {
   return(
@@ -70,6 +71,26 @@ export function AboutDetailBanner() {
 
           <p>Acesse o relatório Inclusion In The Recording Studio?</p>
         </div>
+      </section>
+    </main>
+
+    <main className={styles.contentContainer}>
+      <img src="images/blur.png" />
+    
+      <section className={styles.hero}>
+        <span>A história da música brasileira, no feminino</span>
+
+        <h2 className={styles.colorTitle}>Quem conta a história da música brasileira?</h2>
+        <p>
+          Que mulheres fazem música e são motor artístico potente no Brasil e no mundo não é novidade.
+          No entanto, as pesquisas e relatos mostram que a música, assim como outras indústrias, ainda segue uma lógica patriarcal e não inclusiva.
+          <br/><br/>
+          Homens tem predominância nos espaços e instituições culturais que detém capital político e social - e a história da música segue sendo contada a partir de suas conquistas.
+          <br/><br/>
+          É hora de começarmos a ouvir a música brasileira a partir de uma perspectiva realmente inclusiva - celebrando artistas mulheres e de cor, compartilhando seus trabalhos e ouvindo suas histórias.
+        </p>
+
+        <StartPlaylistButton title="Comece a explorar" />
       </section>
     </main>
     </>
