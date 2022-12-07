@@ -3,9 +3,13 @@ import Head from 'next/head';
 
 import { Artist as ArtistProps, artists } from '../../utils/artists';
 
+interface Props {
+  artist: ArtistProps
+}
+
 import styles from './artist.module.scss';
 
-export default function Artist(artist: ArtistProps) {
+export default function Artist({ artist }: Props) {
   return(
     <>
       <Head>
