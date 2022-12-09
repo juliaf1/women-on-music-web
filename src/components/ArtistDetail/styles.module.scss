@@ -1,8 +1,7 @@
 .container {
   width: 70%;
   overflow-y: scroll;
-
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .contentContainer {
@@ -32,7 +31,7 @@
   line-height: 1rem;
   color: var(--gray-500);
   transition: all 0.2s ease-in-out;
-  margin: 2rem 0;
+  margin: 2rem 0 4rem;
 
   .icon {
     margin-right: 0.25rem;
