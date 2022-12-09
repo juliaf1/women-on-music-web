@@ -25,13 +25,10 @@ export function AboutDetailSections() {
           <br/> - Mulheres compõe apenas 15% do quadro de associados.
         </p>
 
-        <div className={styles.link}>
-          <a href="https://www.ubc.org.br/anexos/publicacoes/Por-Elas-Que-Fazem-a-Musica-2021.pdf" target="blank">
-            <FiLink2 color="#db3a34" size={25} className={styles.icon} />
-          </a>
-
-          <p>Acesse o relatório Por Elas Que Fazem a Música da UBC</p>
-        </div>
+        <a href="https://www.ubc.org.br/anexos/publicacoes/Por-Elas-Que-Fazem-a-Musica-2021.pdf" className={styles.link} target="blank">
+          <FiLink2 color="#db3a34" size={25} className={styles.icon} />
+          Acesse o relatório Por Elas Que Fazem a Música da UBC
+        </a>
       </section>
     </main>
 
@@ -64,13 +61,10 @@ export function AboutDetailSections() {
           <br/> - Apenas 13.6% dos nomeados ao Grammy eram mulheres.
         </p>
 
-        <div className={styles.link}>
-          <a href="https://assets.uscannenberg.org/docs/aii-inclusion-recording-studio-20220331.pdf" target="blank">
-            <FiLink2 color="#db3a34" size={25} className={styles.icon} />
-          </a>
-
-          <p>Acesse o relatório Inclusion In The Recording Studio?</p>
-        </div>
+        <a href="https://assets.uscannenberg.org/docs/aii-inclusion-recording-studio-20220331.pdf" className={styles.link} target="blank">
+          <FiLink2 color="#db3a34" size={25} className={styles.icon} />
+          Acesse o relatório Inclusion In The Recording Studio?
+        </a>
       </section>
     </main>
 
