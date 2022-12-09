@@ -7,7 +7,11 @@ import { Artist as ArtistProps, artists } from '../../utils/artists';
 
 import styles from './artist.module.scss';
 
-export default function Artist({ artist }: ArtistProps) {
+interface Props {
+  artist: ArtistProps;
+}
+
+export default function Artist({ artist }: Props) {
   return(
     <>
       <Head>

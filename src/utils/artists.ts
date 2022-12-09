@@ -1,19 +1,17 @@
 export interface Artist {
-  artist :{
-    id: string;
-    name: string;
-    briefing: string;
-    city: string;
-    image_url: string;
-    content: {
-      main_video_url: string;
-      videos: Array<Video>;
-    };
-    socials: {
-      spotify: string;
-      website: string;
-      instagram: string;
-    }
+  id: string;
+  name: string;
+  briefing: string;
+  city: string;
+  image_url: string;
+  content: {
+    main_video_url: string;
+    videos: Array<Video>;
+  };
+  socials: {
+    spotify: string;
+    website: string;
+    instagram: string;
   }
 };
 

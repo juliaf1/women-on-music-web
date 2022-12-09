@@ -4,32 +4,27 @@ import Link from 'next/link';
 
 import styles from './styles.module.scss';
 
-interface Post {
-  id: string;
-  title: string;
-  excerpt: string;
-  created_at: string;
+import { Artist, artists } from '../../utils/artists';
+
+interface PlaylistProps {
+  artists: Array<Artist>;
 };
 
-interface PostsProps {
-  posts: Post[];
-};
-
-export default function Posts({ posts }: PostsProps) {
+export default function Artists({ artists }: PlaylistProps) {
   return (
     <>
       <Head>
-        <title>Posts | ig.news</title>
+        <title>Artistas | ig.news</title>
       </Head>
 
       <main className={styles.container}>
         <div className={styles.posts}>
-          { posts.map(post => (
-              <Link href={`/posts/${post.id}`} key={post.id}>
+          { artists.map(artist => (
+              <Link href={`/artistas/${artist.id}`} key={artist.id}>
                 <a>
-                  <time>{post.created_at}</time>
-                  <h3>{post.title}</h3>
-                  <p>{post.excerpt}</p>
+                  <time>{artist.city}</time>
+                  <h3>{artist.name}</h3>
+                  <p>{artist.briefing}</p>
                 </a>
               </Link>
           )) }
@@ -42,11 +37,7 @@ export default function Posts({ posts }: PostsProps) {
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      posts: [
-        { id: '1', title: 'Creating a Next application with TS', excerpt: 'In this guide, you will learn how to create a Next application with TypeScript from scratch... Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.', created_at: 'March 22, 2022'},
-        { id: '2', title: 'Creating a Next application with TS', excerpt: 'In this guide, you will learn how to create a Next application with TypeScript from scratch... Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.', created_at: 'March 22, 2022'},
-        { id: '3', title: 'Creating a Next application with TS', excerpt: 'In this guide, you will learn how to create a Next application with TypeScript from scratch... Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.', created_at: 'March 22, 2022'},
-      ]
+      artists
     }
   }
 };

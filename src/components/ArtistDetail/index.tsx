@@ -4,7 +4,11 @@ import { Artist as ArtistProps } from '../../utils/artists';
 
 import styles from './styles.module.scss';
 
-export function ArtistDetail({ artist }: ArtistProps) {
+interface Props {
+  artist: ArtistProps;
+}
+
+export function ArtistDetail({ artist }: Props) {
   return(
     <div className={styles.container}>
           <a href="https://www.ubc.org.br/anexos/publicacoes/Por-Elas-Que-Fazem-a-Musica-2021.pdf" target="blank" className={styles.link}>
