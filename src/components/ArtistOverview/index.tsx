@@ -11,10 +11,10 @@ interface Props {
 export function ArtistOverview({ artist }: Props) {
   return(
     <div className={styles.container}>
-          <a href="/artistas" className={styles.link}>
-            <IoMdArrowBack size={18} className={styles.icon} />
-            Voltar para playlist
-          </a>
+      <a href="/artistas" className={styles.link}>
+        <IoMdArrowBack size={18} className={styles.icon} />
+        Voltar para playlist
+      </a>
 
       <img src={artist.image_url} alt="" />
       <h1>{artist.name}</h1>

@@ -1,0 +1,12 @@
+.container {
+  width: 75%;
+  overflow-y: scroll;
+
+  padding: 0 2rem
+}
+
+@media (max-width: 780px) {
+  .container {
+    width: 100%;
+  }
+}

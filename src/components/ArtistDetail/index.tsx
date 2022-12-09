@@ -9,10 +9,17 @@ interface Props {
 }
 
 export function ArtistDetail({ artist }: Props) {
+  let mainYoutubeUrl = artist.content.main_video_url
+  let videoContent = artist.content.videos[0]
+
   return(
     <div className={styles.container}>
-      <img src={artist.image_url} alt="" />
-      <h1>{artist.name}</h1>
+      <h1>{videoContent.title}</h1>
+      <p>{videoContent.description}</p>
+
+      <iframe width="560" height="315" src={videoContent.video_url} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p>{artist.briefing}</p>
     </div>
   )
 };
