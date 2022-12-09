@@ -17,13 +17,10 @@ export function AboutBanner() {
           A proposta do website é apresentar essas mulheres através das histórias que elas próprias contaram no programa Um Café Lá Em Casa - sendo um convite para descobrir não só o som, mas também as narrativas que compõe esse universo vasto, polirrítmico, descompassado e múltiplo que é a música brasileira.
         </p>
 
-        <div className={styles.githubLink}>
-          <a href="https://github.com/juliaf1/women-on-music-web" target="blank">
-            <FaGithub color="#db3a34" size={25} className={styles.icon} />
-          </a>
-
-          <p>Acesse o projeto no Github</p>
-        </div>
+        <a href="https://github.com/juliaf1/women-on-music-web" className={styles.link} target="blank">
+          <FaGithub color="#db3a34" size={25} className={styles.icon} />
+          Acesse o projeto no Github
+        </a>
       </section>
     </main>
   )
