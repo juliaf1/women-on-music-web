@@ -69,5 +69,5 @@ const artist_2: Artist = {
 
 export const artists: Array<Artist> = [
   artist_1,
-  artist_2
+  artist_2,
 ];
