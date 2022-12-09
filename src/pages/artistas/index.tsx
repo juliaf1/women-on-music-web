@@ -2,6 +2,8 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { BsArrowBarRight } from 'react-icons/bs';
+
 import styles from './styles.module.scss';
 
 import { Artist, artists } from '../../utils/artists';
@@ -22,8 +24,11 @@ export default function Artists({ artists }: PlaylistProps) {
           { artists.map(artist => (
               <Link href={`/artistas/${artist.id}`} key={artist.id}>
                 <a>
-                  <img src={artist.image_url} />
-                  <h2>{artist.name}</h2>
+                  <div>
+                    <img src={artist.image_url} />
+                    <h2>{artist.name}</h2>
+                  </div>
+                  <BsArrowBarRight size={25} className={styles.icon} />
                 </a>
               </Link>
           )) }
