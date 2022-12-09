@@ -1,10 +1,14 @@
 .container {
-  width: 25%;
+  width: 30%;
   padding: 0 2rem;
 
   img {
     width: 180px;
   }
+}
+
+.contentContainer {
+  margin-top: 3rem;
 }
 
 .link {
@@ -13,7 +17,6 @@
   line-height: 1rem;
   color: -var(--gray-300);
   transition: all 0.4s ease-in-out;
-  margin-bottom: 3rem;
 
   .icon {
     margin-right: 0.25rem;

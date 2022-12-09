@@ -16,8 +16,10 @@ export function ArtistOverview({ artist }: Props) {
         Voltar para playlist
       </a>
 
-      <img src={artist.image_url} alt="" />
-      <h1>{artist.name}</h1>
+      <div className={styles.contentContainer}>
+        <img src={artist.image_url} alt="" />
+        <h1>{artist.name}</h1>
+      </div>
     </div>
   )
 };

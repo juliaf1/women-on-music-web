@@ -14,12 +14,15 @@ export function ArtistDetail({ artist }: Props) {
 
   return(
     <div className={styles.container}>
-      <h1>{videoContent.title}</h1>
-      <p>{videoContent.description}</p>
 
-      <iframe width="560" height="315" src={videoContent.video_url} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div className={styles.contentContainer}>
+        <h1>{videoContent.title}</h1>
+        <p>{videoContent.description}</p>
 
-      <p>{artist.briefing}</p>
+        <iframe width="560" height="315" src={videoContent.video_url} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>{artist.briefing}</p>
+      </div>
     </div>
   )
 };
