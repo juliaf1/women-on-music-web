@@ -9,13 +9,41 @@
 
 .contentContainer {
   margin-top: 3rem;
+
+  img {
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin-bottom: 0.2rem;
+  }
+
+  span {
+    color: var(--gray-700);
+  }
 }
 
-.link {
+.socials {
+  display: flex;
+  margin-top: 2rem;
+  color: var(--gray-700);
+
+  a {
+    margin-right: 0.25rem;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      opacity: 0.7;
+      color: var(--red-500);
+    }
+  }
+}
+
+.backLink {
   display: flex;
   align-items: center;
   line-height: 1rem;
-  color: -var(--gray-300);
+  color: var(--gray-500);
   transition: all 0.4s ease-in-out;
 
   .icon {
