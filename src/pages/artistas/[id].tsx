@@ -1,7 +1,7 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 
-import { ArtistDetail } from '../../components/ArtistDetail';
+import { ArtistOverview } from '../../components/ArtistOverview';
 
 import { Artist as ArtistProps, artists } from '../../utils/artists';
 
@@ -19,7 +19,8 @@ export default function Artist({ artist }: Props) {
       </Head>
 
       <div className={styles.container}>
-        <ArtistDetail artist={artist}/>
+        <ArtistOverview artist={artist}/>
+        <></>
       </div>
     </>
   )

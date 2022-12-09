@@ -8,7 +8,7 @@ interface Props {
   artist: ArtistProps;
 }
 
-export function ArtistDetail({ artist }: Props) {
+export function ArtistOverview({ artist }: Props) {
   return(
     <div className={styles.container}>
           <a href="/artistas" className={styles.link}>
