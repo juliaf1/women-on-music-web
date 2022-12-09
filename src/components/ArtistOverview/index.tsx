@@ -1,6 +1,7 @@
 import { IoMdArrowBack } from 'react-icons/io';
 import { BsSpotify, BsInstagram } from 'react-icons/bs';
 import { BsLink45Deg } from 'react-icons/bs';
+import Link from 'next/link';
 
 import { Artist as ArtistProps } from '../../utils/artists';
 
@@ -13,10 +14,12 @@ interface Props {
 export function ArtistOverview({ artist }: Props) {
   return(
     <div className={styles.container}>
-      <a href="/artistas" className={styles.backLink}>
-        <IoMdArrowBack size={18} className={styles.icon} />
-        Voltar para playlist
-      </a>
+      <Link href="/artistas">
+        <a className={styles.backLink}>
+          <IoMdArrowBack size={18} className={styles.icon} />
+          Voltar para playlist
+        </a>
+      </Link>
 
       <div className={styles.contentContainer}>
         <img src={artist.image_url} />
