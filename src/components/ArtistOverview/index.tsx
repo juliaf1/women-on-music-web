@@ -33,7 +33,7 @@ export function ArtistOverview({ artist }: Props) {
           </a>
 
           <a href={artist.socials.website} className={styles.link} target="blank">
-            <BsLink45Deg size={18} className={styles.icon} />
+            <BsLink45Deg size={20} className={styles.icon} />
           </a>
         </div>
       </div>
