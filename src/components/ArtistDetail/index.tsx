@@ -1,4 +1,4 @@
-import { IoMdArrowBack } from 'react-icons/io';
+import { FiLink2 } from 'react-icons/fi';
 
 import { Artist as ArtistProps } from '../../utils/artists';
 
@@ -23,6 +23,11 @@ export function ArtistDetail({ artist }: Props) {
 
         <p>{artist.briefing}</p>
       </div>
+
+      <a href={mainYoutubeUrl} className={styles.link}>
+        <FiLink2 size={18} className={styles.icon} />
+        Ver programa completo
+      </a>
     </div>
   )
 };
