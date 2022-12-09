@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import { AboutBanner } from '../components/AboutBanner';
-import { AboutDetailBanner } from '../components/AboutDetailBanner';
+import { AboutDetailSections } from '../components/AboutDetailSections';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <AboutBanner />
-      <AboutDetailBanner />
+      <AboutDetailSections />
     </>
   )
 };

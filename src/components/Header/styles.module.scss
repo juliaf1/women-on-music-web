@@ -61,29 +61,19 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 680px) {
   .headerContent {
-    img {
-      display: none;
-    }
+    justify-content: space-between;
 
-    nav {
-      margin-left: 0;
+    button {
+      display: none;
     }
   }
 }
 
 @media (max-width: 330px) {
   .headerContent {
-    justify-content: space-between;
-  }
-
-  .headerContent {
     img {
-      display: block;
-    }
-
-    button {
       display: none;
     }
   }

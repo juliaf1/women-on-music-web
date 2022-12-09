@@ -6,7 +6,7 @@ import animationYellowData from '../../../public/lotties/yellow-blob.json';
 import styles from './styles.module.scss';
 import { StartPlaylistButton } from '../StartPlaylistButton';
 
-export function AboutDetailBanner() {
+export function AboutDetailSections() {
   return(
     <>
     <main className={styles.contentContainer}>

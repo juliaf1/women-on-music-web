@@ -1,0 +1,56 @@
+.container {
+  width: 70%;
+  overflow-y: scroll;
+  padding: 0 2rem;
+}
+
+.contentContainer {
+  margin-top: 3rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--gray-700);
+  }
+
+  .video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-bottom: 1rem;
+  }
+
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  line-height: 1rem;
+  color: var(--gray-500);
+  transition: all 0.2s ease-in-out;
+  margin: 2rem 0 4rem;
+
+  .icon {
+    margin-right: 0.3rem;
+  }
+
+  &:hover {
+    opacity: 0.7;
+    color: var(--red-500);
+
+    .icon {
+      position: relative;
+      left: -2px;
+    }
+  }
+}
+
+
+@media (max-width: 780px) {
+  .container {
+    width: 100%;
+  }
+}
