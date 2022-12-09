@@ -16,6 +16,9 @@ export function Header() {
           <ActiveLink href="/about" activeClassName={styles.active}>
             <a>Sobre</a>
           </ActiveLink>
+          <ActiveLink href="/artistas" activeClassName={styles.active}>
+            <a>Artistas</a>
+          </ActiveLink>
         </nav>
 
         <StartPlaylistButton title="Gerar Playlist" />
