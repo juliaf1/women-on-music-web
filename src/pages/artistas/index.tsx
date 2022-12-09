@@ -14,7 +14,7 @@ export default function Artists({ artists }: PlaylistProps) {
   return (
     <>
       <Head>
-        <title>Artistas | ig.news</title>
+        <title>Artistas | Música Brasileira</title>
       </Head>
 
       <main className={styles.container}>

@@ -11,7 +11,7 @@ interface Props {
 export function ArtistDetail({ artist }: Props) {
   return(
     <div className={styles.container}>
-          <a href="https://www.ubc.org.br/anexos/publicacoes/Por-Elas-Que-Fazem-a-Musica-2021.pdf" target="blank" className={styles.link}>
+          <a href="/artistas" className={styles.link}>
             <IoMdArrowBack size={18} className={styles.icon} />
             Voltar para playlist
           </a>
