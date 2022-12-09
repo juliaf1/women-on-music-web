@@ -7,6 +7,21 @@
 
 .contentContainer {
   margin-top: 3rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .video {
+    width: 560px;
+    height: 315px;
+  }
+
 }
 
 @media (max-width: 780px) {
