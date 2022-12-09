@@ -1,23 +1,22 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 
-import { Artist as ArtistProps, artists } from '../../utils/artists';
+import { ArtistDetail } from '../../components/ArtistDetail';
 
-interface Props {
-  artist: ArtistProps
-}
+import { Artist as ArtistProps, artists } from '../../utils/artists';
 
 import styles from './artist.module.scss';
 
-export default function Artist({ artist }: Props) {
+export default function Artist({ artist }: ArtistProps) {
   return(
     <>
       <Head>
         <title>{`${artist.name} | Música Brasileira` }</title>
       </Head>
 
-      <h1>{artist.name}</h1>
-      <img src={artist.image_url} alt="" />
+      <div className={styles.container}>
+        <ArtistDetail artist={artist}/>
+      </div>
     </>
   )
 };
