@@ -14,7 +14,7 @@ interface Props {
 export function ArtistOverview({ artist }: Props) {
   return(
     <div className={styles.container}>
-      <Link href="/artistas">
+      <Link href={`/artistas#${artist.id}`}>
         <a className={styles.backLink}>
           <IoMdArrowBack size={18} className={styles.icon} />
           Voltar para playlist

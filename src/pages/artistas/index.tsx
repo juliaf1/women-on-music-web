@@ -23,7 +23,7 @@ export default function Artists({ artists }: PlaylistProps) {
         <div className={styles.artists}>
           { artists.map(artist => (
               <Link href={`/artistas/${artist.id}`} key={artist.id}>
-                <a>
+                <a id={artist.id}>
                   <div>
                     <img src={artist.image_url} />
                     <h2>{artist.name}</h2>
