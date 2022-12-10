@@ -26,7 +26,7 @@ const ellen: Artist = {
   name: "Ellen Oléria",
   briefing: "Nascida no Rio de Janeiro, a cantora, compositora, arranjadora e instrumentista, Joyce Moreno já lançou 34 CDs e 2 DVDs individuais, além de compilações, participações e cerca de 400 músicas gravadas por alguns dos maiores nomes da música popular brasileira, como Elis Regina, Maria Bethania, Monica Salmaso, Gal Costa, Milton Nascimento, Ney Matogrosso, Edu Lobo, Emilio Santiago, Boca Livre, Nana Caymmi, Zizi Possi, Elizeth Cardoso, Simone, Leny Andrade, entre muitos outros.",
   city: "Rio de Janeiro",
-  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670449560/TCC/ellen_i1gx4e.png",
+  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630993/TCC/ellen_npua69.png",
   content: {
     main_video_url: "https://youtu.be/FTxhzHPhANE",
     videos: [
@@ -49,7 +49,7 @@ const joyce: Artist = {
   name: "Joyce Moreno",
   briefing: "Nascida no Rio de Janeiro, a cantora, compositora, arranjadora e instrumentista, Joyce Moreno já lançou 34 CDs e 2 DVDs individuais, além de compilações, participações e cerca de 400 músicas gravadas por alguns dos maiores nomes da música popular brasileira, como Elis Regina, Maria Bethania, Monica Salmaso, Gal Costa, Milton Nascimento, Ney Matogrosso, Edu Lobo, Emilio Santiago, Boca Livre, Nana Caymmi, Zizi Possi, Elizeth Cardoso, Simone, Leny Andrade, entre muitos outros.",
   city: "Rio de Janeiro",
-  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670449560/TCC/joyce_q5vnn6.png",
+  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630994/TCC/joyce_n7pq1q.png",
   content: {
     main_video_url: "https://www.youtube.com/embed/Uc-yb_IfpEU",
     videos: [
