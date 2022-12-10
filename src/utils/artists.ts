@@ -185,16 +185,16 @@ const leny: Artist = {
 const mariateresa: Artist = {
   id: "maria-teresa",
   name: "Maria Teresa Madeira",
-  briefing: "-",
-  city: "-",
+  briefing: "A pianista Maria Teresa Madeira transita entre o campo acadêmico e o mundo artístico com dedicação e excelência - acumulando prêmios, passagens por orquestras, discos e até indicação ao Grammy. A pianista e doutora se dedica a projetos que vão de Ernesto Nazareth a Chiquinha Gonzaga.",
+  city: "Rio de Janeiro",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630993/TCC/mariateresa_emgbgk.png",
   content: {
     main_video_url: "https://youtu.be/BBdZOLDz93U",
     videos: [
       {
         video_url: "https://www.youtube.com/embed/d2kRNQnLU88",
-        title: "-",
-        description: "-",
+        title: "Chiquinha Gonzaga, que mulher empoderada",
+        description: "'Chiquinha era emporada. Ô mulher empoderada.' - Maria Teresa reconta uma conversa que teve com sua filha, reconhecendo e celebrando os avanços das mulheres na conquista de mais espaços, que a levou a refletir sobre a força de Chiquinha e toda a sua jornada.\n Desde a formação musical erudita até o envolvimento com a música popular, Chiquinha Gonzaga atravessou dificuldades, mas manteve-se firme fazendo o que acreditava. Essa força é influência para outras artistas mulheres.\n Além de contar sobre a trajeteoria de Chiquinha, Maria Teresa também recorda a sua participação como diretora musical no Forrobodó, revista-musical de Chiquinha - projeto que a abriu muitos caminhos.",
       }
     ],
   },
