@@ -5,6 +5,14 @@
   position: relative;
   top: 5rem;
 
+  img {
+    opacity: 0.5;
+  }
+
+  .lottie {
+    opacity: 0.7;
+  }
+
   img, .lottie {
     position: absolute;
     max-width: 600px;
@@ -14,7 +22,6 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: -100;
-    opacity: 0.7;
   }
 }
 
