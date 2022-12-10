@@ -79,9 +79,9 @@ export function AboutDetailSections() {
           Que mulheres fazem música no Brasil e no mundo não é novidade.
           No entanto, as pesquisas e relatos mostram que a indústria musical ainda segue uma lógica patriarcal e não inclusiva.
           <br/><br/>
-          Homens brancos são maioria nos espaços e instituições culturais que detém capital político e social - e a história da música segue sendo contada a partir de suas conquistas.
+          Homens brancos são maioria nos espaços e instituições culturais que detém capital político e social - e a história segue sendo contada a partir de suas conquistas.
           <br/><br/>
-          É hora de registrarmos a história da música a partir de uma perspectiva inclusiva - celebrando artistas mulheres, compartilhando seus trabalhos e reconhecendo suas jornadas.
+          Por isso, precisamos resgatar a história da música a partir de narrativas mais diversas e inclusivas - celebrando artistas mulheres, compartilhando seus trabalhos e registrando suas jornadas.
         </p>
 
         <StartPlaylistButton title="Comece a explorar" />
