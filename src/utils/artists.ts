@@ -162,16 +162,16 @@ const evinha: Artist = {
 const leny: Artist = {
   id: "leny",
   name: "Leny Andrade",
-  briefing: "-",
-  city: "-",
+  briefing: "Nascida e criada na Boca do Mato, Méier, Leny começou a tocar piano aos seis anos de idade. Aos nove, entrou para o Conservatório Brasileiro de Música e aos quinze já se apresentava como 'crooner' de orquestras. Mestre do improviso, Leny é reconhecida mundialmente pela síntese samba-jazz.",
+  city: "Rio de Janeiro",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630994/TCC/leny_azlmtb.png",
   content: {
     main_video_url: "https://youtu.be/OcCyhzjX6V8",
     videos: [
       {
         video_url: "https://www.youtube.com/embed/OcCyhzjX6V8?start=860",
-        title: "-",
-        description: "-",
+        title: "A influência do jazz",
+        description: "'Ele chegou no Beco das Garrafas e disse assim: fiz uma música, porque vocês estão botando muito jazz na bossa nova.' - Leny reconta quando Carlos Lyra compôs Influência do Jazz.\n Para a cantora e pianista, que hoje é referência em samba-jazz no mundo, o desconforto do colega com a influência que o jazz norte-americano passava a ter no gênero brasileiro foi motivo de graça. Isso porque, a música brasileira existe em condição multicultural - com fortes influências portuguesas, ameríndias, africanas e, também, americanas do jazz.\n Leny topa gravar a composição, mas a transforma, com sua voz e os arranjos de Tenório Júnior, em uma grande celebração da mistura brasileira e da fusão jazz, samba e bossa nova.",
       }
     ],
   },
