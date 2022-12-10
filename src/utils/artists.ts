@@ -95,7 +95,7 @@ const vanessa: Artist = {
   name: "Vanessa Moreno",
   briefing: "Nascida no Rio de Janeiro, a cantora, compositora, arranjadora e instrumentista, Joyce Moreno já lançou 34 CDs e 2 DVDs individuais, além de compilações, participações e cerca de 400 músicas gravadas por alguns dos maiores nomes da música popular brasileira, como Elis Regina, Maria Bethania, Monica Salmaso, Gal Costa, Milton Nascimento, Ney Matogrosso, Edu Lobo, Emilio Santiago, Boca Livre, Nana Caymmi, Zizi Possi, Elizeth Cardoso, Simone, Leny Andrade, entre muitos outros.",
   city: "Algum Lugar",
-  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630993/TCC/vanessa_xb8vzc.png",
+  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670645957/TCC/vanessa2_zjlnyv.png",
   content: {
     main_video_url: "https://www.youtube.com/embed/Uc-yb_IfpEU",
     videos: [
@@ -118,7 +118,7 @@ const sandra: Artist = {
   name: "Sandra de Sá",
   briefing: "Nascida no Rio de Janeiro, a cantora, compositora, arranjadora e instrumentista, Joyce Moreno já lançou 34 CDs e 2 DVDs individuais, além de compilações, participações e cerca de 400 músicas gravadas por alguns dos maiores nomes da música popular brasileira, como Elis Regina, Maria Bethania, Monica Salmaso, Gal Costa, Milton Nascimento, Ney Matogrosso, Edu Lobo, Emilio Santiago, Boca Livre, Nana Caymmi, Zizi Possi, Elizeth Cardoso, Simone, Leny Andrade, entre muitos outros.",
   city: "Algum Lugar",
-  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630993/TCC/sandra_it7lc9.png",
+  image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670645957/TCC/sandra2_pjcyxu.png",
   content: {
     main_video_url: "https://www.youtube.com/embed/Uc-yb_IfpEU",
     videos: [
