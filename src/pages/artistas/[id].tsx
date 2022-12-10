@@ -19,8 +19,6 @@ export default function Artist({ artist }: Props) {
         <title>{`${artist.name} | Música Brasileira` }</title>
       </Head>
 
-      <div className={styles.degradeBackground} />
-
       <div className={styles.container}>
         <ArtistOverview artist={artist}/>
         <ArtistDetail artist={artist} />

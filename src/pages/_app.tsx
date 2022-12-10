@@ -10,6 +10,7 @@ function MyApp({
 }: AppProps) {
   return(
     <>
+      <div className="degradeBackground" />
       <Header />
       <Component {...pageProps} />
     </>

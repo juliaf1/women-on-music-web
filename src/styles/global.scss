@@ -49,3 +49,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.degradeBackground {
+  position: fixed;
+  width: 100%;
+  height: 100vw;
+  opacity: 20%;
+  background: -webkit-linear-gradient(15deg, transparent, 90%, rgb(224, 162, 160)), url(https://grainy-gradients.vercel.app/noise.svg);
+  background: linear-gradient(15deg, transparent, 90%, rgb(224, 162, 160)), url(https://grainy-gradients.vercel.app/noise.svg);
+}
