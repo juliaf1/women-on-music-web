@@ -21,6 +21,7 @@ export function ArtistDetail({ artist }: Props) {
 
         <iframe className={styles.video} src={videoContent.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
+        <h3>Sobre a artista</h3>
         <p dangerouslySetInnerHTML={{ __html: artist.briefing }} />
       </div>
 
