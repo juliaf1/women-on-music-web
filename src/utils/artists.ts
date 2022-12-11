@@ -116,16 +116,16 @@ const vanessa: Artist = {
 const sandra: Artist = {
   id: "sandra",
   name: "Sandra de Sá",
-  briefing: "-",
-  city: "-",
+  briefing: "Sandra de Sá é instrumentista, cantora e compositora com uma carreira marcada por sucessos. Além de colecionar prêmios, discos e shows transitando por diversos gêneros, como soul, samba e rock, Sandra também acumulou parcerias de sucesso, de Cazuza e Tim Maia à Leci Brandão.",
+  city: "Rio de Janeiro",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670645957/TCC/sandra2_pjcyxu.png",
   content: {
     main_video_url: "https://youtu.be/FP6do0tQO1w",
     videos: [
       {
-        video_url: "-",
-        title: "-",
-        description: "-",
+        video_url: "https://www.youtube.com/embed/FP6do0tQO1w?start=249",
+        title: "Não tem vida sem música",
+        description: "'Lá em casa, todo mundo tocava. Música era como respirar.' - Sandra de Sá é filha de baterista e nasceu em uma família de músicos. Para ela, música era como respirar, mas não o que ela se imaginava trabalhando.\n Parece difícil pensar que a compositora de músicas tão marcantes não ia seguir esse caminho, mas ela quase terminou a faculdade e só não seguiu carreira como psicóloga, porque seus amigos começaram a inscrevê-la em diversos festivais de música.\n Sandra conta da sua trajetória e como a música e a arte marcaram sua vida.",
       }
     ],
   },
