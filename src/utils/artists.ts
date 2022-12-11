@@ -70,16 +70,16 @@ const joyce: Artist = {
 const indiana: Artist = {
   id: "indiana",
   name: "Indiana Nomma",
-  briefing: "-",
-  city: "-",
+  briefing: "Honduras",
+  city: "Filha de pai baiano e mãe gaúcha exilados na década de 60, Indiana Nomma nasceu em Honduras e cresceu pelo mundo. Ela começou a estudar canto quando criança e, antes mesmo de completar vinte anos, já havia se apresentado no Carnegie Hall. Trabalhando com improviso e trompetes de boca, Indiana Nomma é cantora referente na cena do jazz.",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630993/TCC/indiana_bpzrx8.png",
   content: {
     main_video_url: "https://youtu.be/HOViknHoQqA",
     videos: [
       {
-        video_url: "https://www.youtube.com/embed/RYqv223FlRQ",
-        title: "-",
-        description: "-",
+        video_url: "https://www.youtube.com/embed/KWmztkPEKMI",
+        title: "Do rock a Mercedes Sosa",
+        description: "'O vestido vermelho, o cabelo chanel e todo mundo cantando as músicas dela.' - Indiana Nomma tinha só quatro anos, mas nunca esqueceu o show da Mercedes Sosa que assistiu na final da campanha de alfabetização da Nicarágua. A força da presença de Mercedes no palco, com toda a plateia cantando junto, marcou a cantora na infância e influenciou sua trajetória.\n Indiana conta sobre sua jornada, desde o primeiro show de Mercedes Sosa até o tributo que hoje presta em sua homenagem. A música de Indiana, marcada por influências latino-americanas e afro-brasileiras, reflete os elos que a cantora e instrumentista faz entre América Latina e Brasil, criando novas referências e mantendo viva a memória de Mercedes.",
       }
     ],
   },
