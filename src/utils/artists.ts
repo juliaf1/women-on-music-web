@@ -139,16 +139,16 @@ const sandra: Artist = {
 const evinha: Artist = {
   id: "evinha",
   name: "Evinha",
-  briefing: "-",
-  city: "-",
+  briefing: "Eva Correia José Maria, ou Evinha como ficou conhecida, é cantora e compositora carioca que marcou os anos 60 ao lado de seus irmãos. Antes de seguir carreira solo, lançando discos e participando de orquestras pelo mundo, Evinha compõs o Trio Esperança, grupo que ficou popular entre a Jovem Guarda.",
+  city: "Rio de Janeiro",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630993/TCC/evinha_g2tuom.png",
   content: {
     main_video_url: "https://youtu.be/96SsMHYMS1M",
     videos: [
       {
-        video_url: "-",
-        title: "-",
-        description: "-",
+        video_url: "https://www.youtube.com/embed/96SsMHYMS1M",
+        title: "A Jovem Guarda e o Trio Esperança",
+        description: "'Meus pais pediram um filho cantor. Nasceram sete!' - Evinha nasceu em uma família de artistas. Ela é irmã de Ronaldo, Roberto e Renato, dos Golden Boys, e de Mario, Regina e Marizinha, do Trio Esperança. Os dois grupos marcaram os anos 60, chegando a se apresentar no programa da Jovem Guarda.\n Evinha narra a sua trajetória pessoal e musical, relembrando momentos chave da sua jornada, como o lançamento de Casaco Marrom e a turnê do Trio Esperança em 1990. Além de contar sobre os reencontros musicais da família.",
       }
     ],
   },
