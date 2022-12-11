@@ -93,16 +93,16 @@ const indiana: Artist = {
 const vanessa: Artist = {
   id: "vanessa",
   name: "Vanessa Moreno",
-  briefing: "-",
-  city: "-",
+  briefing: "Vanessa é cantora, instrumentista, compositora e uma das grandes revelações da cena musical atualmente. Além dos seus seis álbuns lançados e diversas parcerias com nomes de destaque, Vanessa também foi professora de canto e tem formação em canto erudito e popular.",
+  city: "São Bernardo do Campo",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670645957/TCC/vanessa2_zjlnyv.png",
   content: {
     main_video_url: "https://youtu.be/ySCPgiYpFzk",
     videos: [
       {
         video_url: "https://www.youtube.com/embed/kNY6Sr-CJM0",
-        title: "-",
-        description: "-",
+        title: "A trajetória no violão e na MPB",
+        description: "'O que é essa música brasileira que você tá querendo me mostrar?' - Vanessa Moreno narra a sua trajetória musical, que começou cedo absorvendo a música que a família tocava em casa, se transformou em amor pelo rock progressivo na adolescência e acabou em uma carreira de sucesso e muitos projetos na MPB.\n Ela conta como entendeu que a música brasileira fazia parte dela, quando começou a estudar violão e dar nome às notas e sons que ouvia em casa, e como foi sua jornada desde então. Vanessa compartilha como faz suas escolhas musicais e reflete sobre a sua relação com o texto, o groove e o ritmo.",
       }
     ],
   },
