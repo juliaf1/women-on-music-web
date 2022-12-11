@@ -47,16 +47,16 @@ const ellen: Artist = {
 const joyce: Artist = {
   id: "joyce",
   name: "Joyce Moreno",
-  briefing: "-",
+  briefing: "Joyce Moreno é cantora, compositora, arranjadora e instrumentista com mais de 30 álbuns e 400 composições gravadas por outros artistas renomados. Colecionando indicações ao Grammy, turnês mundiais e décadas de carreira, Joyce é uma das pessoas compositoras mais importantes na história da MPB.",
   city: "Rio de Janeiro",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630994/TCC/joyce_n7pq1q.png",
   content: {
     main_video_url: "https://youtu.be/Uc-yb_IfpEU",
     videos: [
       {
-        video_url: "-",
-        title: "-",
-        description: "-",
+        video_url: "https://www.youtube.com/embed/Uc-yb_IfpEU?start=333",
+        title: "As composições e a trajetória de Joyce",
+        description: "'Não era moda compositora mulher' - Joyce relembra a sua trajetória artística numa época em que as mulheres podiam ocupar ainda menos espaços. Apesar dos álbuns gravados e das músicas de sucesso, Joyce Moreno lembra que, na época, houve críticos que duvidaram da autoria de suas composições 'por serem boas demais para uma mulher ter escrito'.<br/><br/>Além de contar sobre a sua história como cantora e instrumentista, ela também narra o momento em que começou a compartilhar suas composições e ter elas gravadas por Milton, Elis, Bethânia…",
       }
     ],
   },
