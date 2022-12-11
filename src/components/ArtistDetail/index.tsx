@@ -17,11 +17,11 @@ export function ArtistDetail({ artist }: Props) {
 
       <div className={styles.contentContainer}>
         <h1>{videoContent.title}</h1>
-        <p>{videoContent.description}</p>
+        <p dangerouslySetInnerHTML={{ __html: videoContent.description }} />
 
         <iframe className={styles.video} src={videoContent.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-        <p>{artist.briefing}</p>
+        <p dangerouslySetInnerHTML={{ __html: artist.briefing }} />
       </div>
 
       <a href={mainYoutubeUrl} className={styles.link}>
