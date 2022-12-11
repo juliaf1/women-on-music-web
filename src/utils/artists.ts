@@ -24,16 +24,16 @@ interface Video {
 const ellen: Artist = {
   id: "ellen",
   name: "Ellen Oléria",
-  briefing: "-",
-  city: "-",
+  briefing: "Ellen é cantora, compositora, instrumentista e atriz. Com mais de 15 anos de jornada musical, ela acumula prêmios, discos e turnês mundo afora, transitando com muita versatilidade pela MPB, samba, soul e hip-hop. Além da sua célebre participação no The Voice Brasil, a multi artista Ellen Oléria também coleciona parcerias de sucesso e trabalhos na TV e no teatro.",
+  city: "Brasília",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630993/TCC/ellen_npua69.png",
   content: {
     main_video_url: "https://youtu.be/FTxhzHPhANE",
     videos: [
       {
         video_url: "https://www.youtube.com/embed/uhIhBu_ajW4",
-        title: "-",
-        description: "-",
+        title: "O fundamento da música brasileira",
+        description: "'Meu pertencimento é motivo da minha alegria' - Ellen Oléria fala sobre a sua identidade como potência de significado e alegria. Para ela, é impossível deixar de falar sobre quem é, pois quando canta e fala da sua negritude, ela está celebrando a sua herança.<br/><br/>A festa, a salsa, o mambo, o jazz, o blues, o chorinho... Ellen Oléria celebra a sua identidade que é fundamento da música nas américas. Além disso, ela relembra algumas das vozes que não brilharam no mainstream, mas são referências célebres da música brasileira, como Jovelina, Pérola Negra e Clementina de Jesus.",
       }
     ],
   },
@@ -48,7 +48,7 @@ const joyce: Artist = {
   id: "joyce",
   name: "Joyce Moreno",
   briefing: "-",
-  city: "-",
+  city: "Rio de Janeiro",
   image_url: "https://res.cloudinary.com/dz2czxltr/image/upload/v1670630994/TCC/joyce_n7pq1q.png",
   content: {
     main_video_url: "https://youtu.be/Uc-yb_IfpEU",
