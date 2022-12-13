@@ -9,7 +9,7 @@ interface StartPlaylistButtonProps {
 
 export function StartPlaylistButton({ title }: StartPlaylistButtonProps) {
   return(
-    <Link href="artistas">
+    <Link href="/artistas">
       <button
         className={styles.startPlaylistButton}
       >
