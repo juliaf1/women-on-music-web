@@ -9,7 +9,7 @@ export function HomeBanner() {
   return(
     <main className={styles.contentContainer}>
       <section className={styles.hero}>
-        <span>Em parceria com Um Café Lá Em Casa</span>
+        <span>Com conteúdo do Um Café Lá Em Casa</span>
 
         <h1>Música brasileira,<br/><span>no feminino</span></h1>
         <p>
